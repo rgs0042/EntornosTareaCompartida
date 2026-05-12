@@ -17,4 +17,18 @@ public class GestorReservas {
         habitaciones.add(new Habitacion(201, "Suite", 150.0));
     }
 
+    /**
+     * Busca habitaciones libres.
+     * REFACTORIZACIÓN: Se usa un método específico para filtrar (Clean Code).
+     * @return Lista de habitaciones disponibles.
+     */
+    public List<Habitacion> obtenerDisponibles() {
+        List<Habitacion> libres = new ArrayList<>();
+        for (Habitacion h : habitaciones) {
+            if (!h.isOcupada()) {
+                libres.add(h);
+            }
+        }
+        return libres;
+    }
 }
