@@ -11,7 +11,14 @@ import java.util.Scanner;
         private String tipo; // Simple, Doble, Suite
         private double precioBase;
         private boolean estaOcupada;
-        
+    
+        // Constructor
+    public Habitacion(int numero, String tipo, double precioBase) {
+        this.numero = numero;
+        this.tipo = tipo;
+        this.precioBase = precioBase;
+        this.estaOcupada = false;
+    }
         
         
        
