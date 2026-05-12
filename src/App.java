@@ -15,6 +15,15 @@ public class App {
      */ 
 
           public boolean reservar(int numeroHabitacion) {
+            for (Habitacion h : habitaciones) {
+            if (h.getNumero() == numeroHabitacion && !h.isOcupada()) {
+                h.setOcupada(true);
+                return true;
+            }
+        }
+        return false;
+    }
+
       
     }
 }
