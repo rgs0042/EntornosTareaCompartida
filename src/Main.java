@@ -30,5 +30,7 @@ public class Main {
                 }
             }
         } while (opcion != 3);
+        sc.close();
+        System.out.println("Saliendo del sistema...");
     }
 }
