@@ -5,7 +5,7 @@ import java.util.Scanner;
  * Clase principal que lanza la aplicación de consola.
  * @author Carlos Javier Millán Villarejo
  */
-public class App {
+public class ProcesoReserva {
     public static void main(String[] args) throws Exception {
         
        /**
