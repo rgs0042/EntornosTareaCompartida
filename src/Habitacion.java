@@ -19,6 +19,12 @@ import java.util.Scanner;
         this.precioBase = precioBase;
         this.estaOcupada = false;
     }
+
+     // Getters y Setters
+    public int getNumero() { return numero; }
+    public boolean isOcupada() { return estaOcupada; }
+    public void setOcupada(boolean estado) { this.estaOcupada = estado; }
+    public double getPrecioBase() { return precioBase; }
         
         
        
