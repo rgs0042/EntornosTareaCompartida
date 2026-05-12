@@ -14,6 +14,7 @@ public class App {
      * @return true si se pudo reservar, false si ya estaba ocupada.
      */ 
 
+          public boolean reservar(int numeroHabitacion) {
       
     }
 }
