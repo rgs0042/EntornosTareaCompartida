@@ -31,4 +31,20 @@ public class GestorReservas {
         }
         return libres;
     }
+
+    /**
+     * Realiza el proceso de reserva.
+     * @param numeroHabitacion El ID de la habitación.
+     * @return true si se pudo reservar, false si ya estaba ocupada.
+     */ 
+
+          public boolean reservar(int numeroHabitacion) {
+            for (Habitacion h : habitaciones) {
+            if (h.getNumero() == numeroHabitacion && !h.isOcupada()) {
+                h.setOcupada(true);
+                return true;
+            }
+        }
+        return false;
+    }
 }
