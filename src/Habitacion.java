@@ -6,6 +6,13 @@ import java.util.Scanner;
  * @author Antonio García
  */
 
+     /**
+     * Realiza el proceso de reserva.
+     * @param numero El ID de la habitación.
+     * @param tipo El ID de la habitación.
+     * @param precioBase El ID de la habitación.
+     * @param estaOcupada El ID de la habitación.
+     */ 
     public class Habitacion {
         private int numero;
         private String tipo; // Simple, Doble, Suite

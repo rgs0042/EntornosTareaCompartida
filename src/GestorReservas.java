@@ -4,7 +4,7 @@ import java.util.List;
 
 /**
  * Gestiona la disponibilidad y el registro de reservas.
- * @author rafa
+ * @author rafa y Carlos javi
  */
 public class GestorReservas {
     private List<Habitacion> habitaciones;
